@@ -1,8 +1,8 @@
 # Stepper-Driver Current Calculator
 
-This program calculates the reference Voltage on different stepper drivers for a chosen maximal phase current.
+This Desktop application calculates the reference Voltage for different stepper drivers to limit its maximum output current to a desired value. Some safety margins can be included directly as well.
 
-## upported Drivers:
+## Supported Drivers:
 
 - A4988
 - DRV8825S
