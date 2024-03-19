@@ -52,7 +52,7 @@ class MainMenu(tk.Frame):
         self.rowconfigure(1, weight=1)
         self.rowconfigure(2, weight=30)
 
-        label = tk.Label(self, text="Stepper Driver Type:", font=('Arial', 18), bg='#0F4C75')
+        label = tk.Label(self, text="Stepper Driver Type:", font=('Arial', 18), bg='#0F4C75', fg='white')
         label.grid(row=0, column=0, sticky="nsew", pady=padding, padx=padding)
 
         # Stepper Driver Type Options (Dropdown Menu)
